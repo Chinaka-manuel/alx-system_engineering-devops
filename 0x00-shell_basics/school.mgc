@@ -1,2 +1,2 @@
 #!/bin/bash
-file --mine-type school.mgc *
+file(0) school.mgc
