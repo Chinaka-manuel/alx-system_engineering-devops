@@ -1,0 +1,22 @@
+WHAT HAPPENS WHEN YOU TYPE www.google.com.
+
+several processes or protocols are put into action when we type a URL on our web browser, this proceses takes place very fast behind the scene and a client or a web user maynot be aware of such processes.
+These processes are as follows:
+1. You type the url eg. www.google.com,
+
+2. The DNS (Domain Name System) translates the human readable domain name to IP( Internet Protocol ) address eg. 192.164:2345 so the browser can load internet resources.
+
+3. The brower initiates TCP(Transmission control protocol) which organizes data so that it can be transmitted between a server and a client. It guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which it ensures remains live until communication begins. It then breaks large amounts of data into smaller packets, while ensuring data integrity is in place throughout the process.
+
+4. The resources are checked for security with the help of firewall.
+Firewalls, and especially Next Generation Firewalls, focus on blocking malware and application-layer attacks, along with an integrated intrusion prevention system (IPS), these Next Generation Firewalls can react quickly and seamlessly to detect and react to outside attacks across the whole network.
+
+5. Extra security and site authentication is carried out using the https/ssl protocol.
+
+6. load-balancers ensures that traffics from different users are redirected authomatically to different servers to prevent breakdown of the process in cases of malfunction of a particular server.
+
+7. The web server  uses HTTP (Hypertext Transfer Protocol) and other protocols to respond to client requests made over the World Wide Web. The main job of a web server is to display website content through storing, processing and delivering webpages to users.
+
+8. The request is further handled by the application which is used for complex transaction-based applications. To support high-end needs like heavy traffic and complex requests, an application server has to have built-in redundancy, monitor for high-availability, high-performance distributed application services, and support for complex database access.
+
+all these processes takes in very short period of time to bring about the result when we type a url on our web-browser.
