@@ -1,1 +1,2 @@
-configuration_management solution
+0x0A-configuration_management
+
